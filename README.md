@@ -35,15 +35,18 @@ exports["ND_MDT"]:createDispatch({
 
 ## Inventory item:
 ```lua
-["mdt"] = {
-    label = "MDT",
-    weight = 800,
-    client = {
-        export = "ND_MDT.useTablet"
-    }
-}
+	["mdt"] = {
+		label = "MDT",
+		weight = 800,
+		client = {
+			image = "mdt.png",
+			export = "ND_MDT.useTablet"
+		}
+	},
 ```
 ![mdt](https://github.com/ND-Framework/ND_MDT/assets/86536434/1dcb38e5-4609-401f-97bf-77371fb55466)
+
+- add the mdt.png file to the ox_inventory/web/images folder
 
 ## Features:
 * General
